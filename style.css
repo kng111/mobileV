@@ -130,9 +130,9 @@ h3 {
 
 
 .hero__box {
-  width: 184px; /* Задайте желаемую ширину контейнера */
-  height: 188px; /* Задайте желаемую высоту контейнера */
-  max-width: 180px;
+  width: 214px; /* Задайте желаемую ширину контейнера */
+  height: 218px; /* Задайте желаемую высоту контейнера */
+  max-width: 220px;
   justify-self: center;
   overflow: hidden;
   position: relative;
