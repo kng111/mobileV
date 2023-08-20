@@ -150,7 +150,7 @@ h3 {
   top: 0; /* Задайте расстояние от верхней границы контейнера */
   left: 0; /* Задайте расстояние от левой границы контейнера */
   animation: ava-bg 3s infinite alternate;
-  
+  display: block; 
 }
 
 @media screen and (max-width: 978px) {
