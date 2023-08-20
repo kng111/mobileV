@@ -135,7 +135,7 @@ h3 {
   max-width: 265px;
   justify-self: center;
   overflow: hidden;
-  position: relative;
+  position: center;
   border: 1px solid rgb(255, 255, 255);
 
   background-image: linear-gradient(to right, rgb(236, 46, 163) 1%, rgb(235, 217, 228) 99%);
