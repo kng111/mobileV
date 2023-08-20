@@ -130,14 +130,12 @@ h3 {
 
 
 .hero__box {
-  width: 183px; /* Задайте желаемую ширину контейнера */
-  height: 188px; /* Задайте желаемую высоту контейнера */
-  max-width: 189px;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  width: 443px; /* Задайте желаемую ширину контейнера */
+  height: 468px; /* Задайте желаемую высоту контейнера */
+  max-width: 600px;
+  justify-self: center;
   overflow: hidden;
-  position: center;
+  position: relative;
   border: 1px solid rgb(255, 255, 255);
 
   background-image: linear-gradient(to right, rgb(236, 46, 163) 1%, rgb(235, 217, 228) 99%);
@@ -148,14 +146,11 @@ h3 {
 .hero__box-img {
   width: 100%; /* Задайте 100% ширины для изображения */
   height: 100%; /* Задайте 100% высоты для изображения */
-  display: block; /* Блочный элемент (для старых браузеров) */
-  text-align: center; /* Выравнивание по центру */
-  font-style: italic; /* Курсивное начертание */
-  margin-top: 0; /* Отступ сверху */
-  margin-bottom: 5px; /* Отступ снизу */
+  position: absolute; /* Установите абсолютное позиционирование для изображения */
   top: 0; /* Задайте расстояние от верхней границы контейнера */
   left: 0; /* Задайте расстояние от левой границы контейнера */
   animation: ava-bg 3s infinite alternate;
+  
 }
 
 @media screen and (max-width: 978px) {
