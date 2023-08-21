@@ -148,9 +148,9 @@ h3 {
   position: relative;
   border: 1px solid rgb(255, 255, 255);
 
-  background-image: linear-gradient(to right, rgb(220, 205, 49) 1%, rgb(235, 217, 228) 99%);
+  background-image: linear-gradient(to right, rgb(223, 54, 155, .31) 1%, rgb(125, 247, 138, .31) 99%);
   animation: ava-animate 10s infinite alternate;
-  box-shadow: 2px 5px 10px rgb(240, 201, 30);
+  box-shadow: 2px 5px 10px rgb(240, 201, 30, .50);
 }
 
 .hero__box-img {
